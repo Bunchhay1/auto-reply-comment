@@ -1,0 +1,1 @@
+2025-09-11 00:45:16,449 - ERROR - Invalid URL entered: https://web.facebook.com/photo?fbid=1101185625541810&set=a.345371174456596

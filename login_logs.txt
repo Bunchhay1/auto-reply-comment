@@ -1,0 +1,58 @@
+2025-09-11 00:08:04,288 - INFO - Attempting login for account 1 (61574143311919)
+2025-09-11 00:08:11,500 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 00:08:12,511 - INFO - Attempting login for account 2 (61573937972209)
+2025-09-11 00:08:19,706 - INFO - Login successful for account 2 (61573937972209)
+2025-09-11 00:08:20,718 - INFO - Attempting login for account 3 (61574164250901)
+2025-09-11 00:08:31,144 - INFO - Login successful for account 3 (61574164250901)
+2025-09-11 00:08:32,158 - INFO - Attempting login for account 4 (61573967041075)
+2025-09-11 00:08:42,373 - WARNING - Account 4 (61573967041075) requires two-factor authentication or captcha. Manual intervention needed.
+2025-09-11 00:08:43,406 - INFO - Attempting login for account 5 (61573911123508)
+2025-09-11 00:08:50,963 - INFO - Login successful for account 5 (61573911123508)
+2025-09-11 00:08:51,970 - INFO - Attempting login for account 6 (61574164130888)
+2025-09-11 00:08:56,939 - INFO - Login successful for account 6 (61574164130888)
+2025-09-11 00:08:57,953 - INFO - Attempting login for account 7 (61573992659575)
+2025-09-11 00:09:08,487 - WARNING - Account 7 (61573992659575) requires two-factor authentication or captcha. Manual intervention needed.
+2025-09-11 00:09:09,503 - INFO - Attempting login for account 8 (61573688085322)
+2025-09-11 00:09:21,450 - WARNING - Account 8 (61573688085322) requires two-factor authentication or captcha. Manual intervention needed.
+2025-09-11 00:09:22,466 - INFO - Attempting login for account 9 (61574085774897)
+2025-09-11 00:09:33,571 - WARNING - Account 9 (61574085774897) requires two-factor authentication or captcha. Manual intervention needed.
+2025-09-11 00:09:34,583 - INFO - Attempting login for account 10 (61574038737098)
+2025-09-11 00:09:40,594 - INFO - Login successful for account 10 (61574038737098)
+2025-09-11 00:09:41,608 - INFO - Attempting login for account 11 (61574079355208)
+2025-09-11 00:09:55,121 - ERROR - Login error for account 11 (61574079355208): Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102a6b674 cxxbridge1$str$ptr + 2882776
+1   chromedriver                        0x0000000102a635a0 cxxbridge1$str$ptr + 2849796
+2   chromedriver                        0x000000010258d0dc _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73436
+3   chromedriver                        0x00000001025d4474 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 365172
+4   chromedriver                        0x000000010261566c _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631916
+5   chromedriver                        0x00000001025c8130 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 315184
+6   chromedriver                        0x0000000102a2fba4 cxxbridge1$str$ptr + 2638344
+7   chromedriver                        0x0000000102a32dbc cxxbridge1$str$ptr + 2651168
+8   chromedriver                        0x0000000102a10640 cxxbridge1$str$ptr + 2509988
+9   chromedriver                        0x0000000102a33668 cxxbridge1$str$ptr + 2653388
+10  chromedriver                        0x0000000102a01ddc cxxbridge1$str$ptr + 2450496
+11  chromedriver                        0x0000000102a52ef0 cxxbridge1$str$ptr + 2782548
+12  chromedriver                        0x0000000102a53070 cxxbridge1$str$ptr + 2782932
+13  chromedriver                        0x0000000102a631ec cxxbridge1$str$ptr + 2848848
+14  libsystem_pthread.dylib             0x0000000197dd7c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197dd2b80 thread_start + 8
+
+2025-09-11 00:09:56,134 - INFO - Attempting login for account 12 (61574156901181)
+2025-09-11 00:10:06,757 - WARNING - Account 12 (61574156901181) requires two-factor authentication or captcha. Manual intervention needed.
+2025-09-11 00:10:07,771 - INFO - Attempting login for account 13 (61573995269464)
+2025-09-11 00:10:15,968 - INFO - Login successful for account 13 (61573995269464)
+2025-09-11 00:10:16,980 - INFO - Attempting login for account 14 (61573494376845)
+2025-09-11 00:10:28,811 - ERROR - Login failed for account 14 (61573494376845): Unknown error
+2025-09-11 00:10:29,822 - INFO - Attempting login for account 15 (61574072065599)
+2025-09-11 00:10:34,852 - INFO - Login successful for account 15 (61574072065599)
+2025-09-11 00:10:35,860 - INFO - Attempting login for account 16 (61573657486156)
+2025-09-11 00:10:41,918 - INFO - Login successful for account 16 (61573657486156)
+2025-09-11 00:10:42,926 - INFO - Attempting login for account 17 (61574059196303)
+2025-09-11 00:10:54,775 - WARNING - Account 17 (61574059196303) requires two-factor authentication or captcha. Manual intervention needed.
+2025-09-11 00:10:55,790 - INFO - Attempting login for account 18 (61573915443498)
+2025-09-11 00:11:00,917 - INFO - Login successful for account 18 (61573915443498)
+2025-09-11 00:11:01,924 - INFO - Attempting login for account 19 (61573506527517)
+2025-09-11 00:11:08,431 - INFO - Login successful for account 19 (61573506527517)
+2025-09-11 00:11:09,441 - INFO - Attempting login for account 20 (61573708214027)
+2025-09-11 00:11:20,432 - INFO - Login successful for account 20 (61573708214027)

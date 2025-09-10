@@ -1,0 +1,358 @@
+2025-09-11 00:51:44,215 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 00:51:53,237 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 00:51:53,238 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:52:04,300 - INFO - No more comments to load.
+2025-09-11 00:52:04,306 - INFO - Found 0 comments.
+2025-09-11 00:52:04,306 - INFO - Verifying replies for account 61574143311919
+2025-09-11 00:52:12,631 - INFO - Attempting login for account 2 (61573937972209), attempt 1
+2025-09-11 00:52:21,871 - INFO - Login successful for account 2 (61573937972209)
+2025-09-11 00:52:21,871 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:52:30,534 - INFO - No more comments to load.
+2025-09-11 00:52:30,539 - INFO - Found 0 comments.
+2025-09-11 00:52:30,539 - INFO - Verifying replies for account 61573937972209
+2025-09-11 00:52:39,532 - INFO - Attempting login for account 3 (61574164250901), attempt 1
+2025-09-11 00:52:46,660 - INFO - Login successful for account 3 (61574164250901)
+2025-09-11 00:52:46,660 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:52:55,120 - INFO - No more comments to load.
+2025-09-11 00:52:55,123 - INFO - Found 0 comments.
+2025-09-11 00:52:55,123 - INFO - Verifying replies for account 61574164250901
+2025-09-11 00:53:03,220 - INFO - Attempting login for account 4 (61573967041075), attempt 1
+2025-09-11 00:53:20,621 - WARNING - Account 4 (61573967041075) requires two-factor authentication or captcha.
+2025-09-11 00:53:21,662 - INFO - Attempting login for account 5 (61573911123508), attempt 1
+2025-09-11 00:53:30,868 - INFO - Login successful for account 5 (61573911123508)
+2025-09-11 00:53:30,868 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:53:38,011 - INFO - No more comments to load.
+2025-09-11 00:53:38,017 - INFO - Found 0 comments.
+2025-09-11 00:53:38,017 - INFO - Verifying replies for account 61573911123508
+2025-09-11 00:53:46,439 - INFO - Attempting login for account 6 (61574164130888), attempt 1
+2025-09-11 00:53:53,452 - INFO - Login successful for account 6 (61574164130888)
+2025-09-11 00:53:53,452 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:54:20,606 - INFO - No more comments to load.
+2025-09-11 00:54:20,611 - INFO - Found 0 comments.
+2025-09-11 00:54:20,611 - INFO - Verifying replies for account 61574164130888
+2025-09-11 00:54:29,673 - INFO - Attempting login for account 7 (61573992659575), attempt 1
+2025-09-11 00:54:41,917 - WARNING - Account 7 (61573992659575) requires two-factor authentication or captcha.
+2025-09-11 00:54:42,949 - INFO - Attempting login for account 8 (61573688085322), attempt 1
+2025-09-11 00:54:55,893 - WARNING - Account 8 (61573688085322) requires two-factor authentication or captcha.
+2025-09-11 00:54:56,910 - INFO - Attempting login for account 9 (61574085774897), attempt 1
+2025-09-11 00:55:08,471 - WARNING - Account 9 (61574085774897) requires two-factor authentication or captcha.
+2025-09-11 00:55:09,483 - INFO - Attempting login for account 10 (61574038737098), attempt 1
+2025-09-11 00:55:17,428 - INFO - Login successful for account 10 (61574038737098)
+2025-09-11 00:55:17,429 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:55:25,084 - INFO - No more comments to load.
+2025-09-11 00:55:25,090 - INFO - Found 0 comments.
+2025-09-11 00:55:25,090 - INFO - Verifying replies for account 61574038737098
+2025-09-11 00:55:33,486 - INFO - Attempting login for account 11 (61574079355208), attempt 1
+2025-09-11 00:55:42,461 - INFO - Login successful for account 11 (61574079355208)
+2025-09-11 00:55:42,462 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:55:52,721 - INFO - No more comments to load.
+2025-09-11 00:55:52,724 - INFO - Found 0 comments.
+2025-09-11 00:55:52,725 - INFO - Verifying replies for account 61574079355208
+2025-09-11 00:56:01,419 - INFO - Attempting login for account 12 (61574156901181), attempt 1
+2025-09-11 00:56:18,570 - ERROR - Login error for account 12 (61574156901181), attempt 1: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105057674 cxxbridge1$str$ptr + 2882776
+1   chromedriver                        0x000000010504f5a0 cxxbridge1$str$ptr + 2849796
+2   chromedriver                        0x0000000104b790dc _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73436
+3   chromedriver                        0x0000000104bc0474 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 365172
+4   chromedriver                        0x0000000104c0166c _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631916
+5   chromedriver                        0x0000000104bb4130 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 315184
+6   chromedriver                        0x000000010501bba4 cxxbridge1$str$ptr + 2638344
+7   chromedriver                        0x000000010501edbc cxxbridge1$str$ptr + 2651168
+8   chromedriver                        0x0000000104ffc640 cxxbridge1$str$ptr + 2509988
+9   chromedriver                        0x000000010501f668 cxxbridge1$str$ptr + 2653388
+10  chromedriver                        0x0000000104fedddc cxxbridge1$str$ptr + 2450496
+11  chromedriver                        0x000000010503eef0 cxxbridge1$str$ptr + 2782548
+12  chromedriver                        0x000000010503f070 cxxbridge1$str$ptr + 2782932
+13  chromedriver                        0x000000010504f1ec cxxbridge1$str$ptr + 2848848
+14  libsystem_pthread.dylib             0x0000000197dd7c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197dd2b80 thread_start + 8
+
+2025-09-11 00:56:23,576 - INFO - Attempting login for account 12 (61574156901181), attempt 2
+2025-09-11 00:56:39,777 - ERROR - Login error for account 12 (61574156901181), attempt 2: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105057674 cxxbridge1$str$ptr + 2882776
+1   chromedriver                        0x000000010504f5a0 cxxbridge1$str$ptr + 2849796
+2   chromedriver                        0x0000000104b790dc _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73436
+3   chromedriver                        0x0000000104bc0474 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 365172
+4   chromedriver                        0x0000000104c0166c _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631916
+5   chromedriver                        0x0000000104bb4130 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 315184
+6   chromedriver                        0x000000010501bba4 cxxbridge1$str$ptr + 2638344
+7   chromedriver                        0x000000010501edbc cxxbridge1$str$ptr + 2651168
+8   chromedriver                        0x0000000104ffc640 cxxbridge1$str$ptr + 2509988
+9   chromedriver                        0x000000010501f668 cxxbridge1$str$ptr + 2653388
+10  chromedriver                        0x0000000104fedddc cxxbridge1$str$ptr + 2450496
+11  chromedriver                        0x000000010503eef0 cxxbridge1$str$ptr + 2782548
+12  chromedriver                        0x000000010503f070 cxxbridge1$str$ptr + 2782932
+13  chromedriver                        0x000000010504f1ec cxxbridge1$str$ptr + 2848848
+14  libsystem_pthread.dylib             0x0000000197dd7c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197dd2b80 thread_start + 8
+
+2025-09-11 00:56:44,780 - INFO - Attempting login for account 12 (61574156901181), attempt 3
+2025-09-11 00:57:01,066 - ERROR - Login error for account 12 (61574156901181), attempt 3: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105057674 cxxbridge1$str$ptr + 2882776
+1   chromedriver                        0x000000010504f5a0 cxxbridge1$str$ptr + 2849796
+2   chromedriver                        0x0000000104b790dc _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73436
+3   chromedriver                        0x0000000104bc0474 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 365172
+4   chromedriver                        0x0000000104c0166c _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631916
+5   chromedriver                        0x0000000104bb4130 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 315184
+6   chromedriver                        0x000000010501bba4 cxxbridge1$str$ptr + 2638344
+7   chromedriver                        0x000000010501edbc cxxbridge1$str$ptr + 2651168
+8   chromedriver                        0x0000000104ffc640 cxxbridge1$str$ptr + 2509988
+9   chromedriver                        0x000000010501f668 cxxbridge1$str$ptr + 2653388
+10  chromedriver                        0x0000000104fedddc cxxbridge1$str$ptr + 2450496
+11  chromedriver                        0x000000010503eef0 cxxbridge1$str$ptr + 2782548
+12  chromedriver                        0x000000010503f070 cxxbridge1$str$ptr + 2782932
+13  chromedriver                        0x000000010504f1ec cxxbridge1$str$ptr + 2848848
+14  libsystem_pthread.dylib             0x0000000197dd7c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197dd2b80 thread_start + 8
+
+2025-09-11 00:57:02,076 - INFO - Attempting login for account 13 (61573995269464), attempt 1
+2025-09-11 00:57:10,098 - INFO - Login successful for account 13 (61573995269464)
+2025-09-11 00:57:10,099 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329
+2025-09-11 00:57:17,709 - INFO - No more comments to load.
+2025-09-11 00:57:17,715 - INFO - Found 0 comments.
+2025-09-11 00:57:17,715 - INFO - Verifying replies for account 61573995269464
+2025-09-11 00:57:20,921 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/e88a77665a15dd7038383a35d2bb3a24
+2025-09-11 00:57:20,923 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c5d310>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e88a77665a15dd7038383a35d2bb3a24
+2025-09-11 00:57:20,927 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c5d1d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e88a77665a15dd7038383a35d2bb3a24
+2025-09-11 00:59:02,658 - ERROR - Invalid URL in config: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 00:59:23,432 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 00:59:32,640 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 00:59:32,642 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 00:59:41,985 - INFO - No more comments to load.
+2025-09-11 00:59:41,990 - INFO - Found 0 comments.
+2025-09-11 00:59:41,990 - INFO - Verifying replies for account 61574143311919
+2025-09-11 00:59:50,163 - INFO - Attempting login for account 2 (61573937972209), attempt 1
+2025-09-11 00:59:59,180 - INFO - Login successful for account 2 (61573937972209)
+2025-09-11 00:59:59,181 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:00:07,672 - INFO - No more comments to load.
+2025-09-11 01:00:07,677 - INFO - Found 0 comments.
+2025-09-11 01:00:07,677 - INFO - Verifying replies for account 61573937972209
+2025-09-11 01:00:10,277 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102339450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b469a0b3a782dc9014b1d368cf3dd0a9
+2025-09-11 01:00:10,278 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102338f50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b469a0b3a782dc9014b1d368cf3dd0a9
+2025-09-11 01:00:10,279 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10236c770>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b469a0b3a782dc9014b1d368cf3dd0a9
+2025-09-11 01:01:05,339 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 01:01:16,946 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 01:01:16,947 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:01:25,985 - INFO - No more comments to load.
+2025-09-11 01:01:25,991 - INFO - Found 0 comments.
+2025-09-11 01:01:25,991 - INFO - Verifying replies for account 61574143311919
+2025-09-11 01:01:27,959 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1040f5090>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1fd79caa221769c3f240cb197001cada
+2025-09-11 01:01:27,959 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1040f4f50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1fd79caa221769c3f240cb197001cada
+2025-09-11 01:01:27,960 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104128770>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1fd79caa221769c3f240cb197001cada
+2025-09-11 01:04:34,644 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 01:04:51,910 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARF017qV0jpMM0c-gT0Tv3QrbGJG-Sq2beB231-eoY4SmD-Q0o03X2oylla_vEVQDOh6grlnWaysxs1y8dz4J6uA9OkPPbXh09-PcxKddsdrv72l6-zxQhem_0WCILVXhnvoZsAhNFCnu8pR3r6GEuNW8f62U9lQo3rk5LiMGCij9ILMvPL0ZMSab5G2_Pq4swy_jXqTZ-jWwwoi53wInQK9Tkj2olC1WBdYQzhpVnqiRl9SPpRe7Lsm2nqfteD6zmGFsoeJnUKLvkFPrVeOXOm8NIKAJO-Na8uVNOsw2fMxSWTvfR7c2cNCyywyqfj1QuBcAANjgem1b3RKnT9DvUkGj47Sg3H8GB7jPKXXPbv0X65jgpA-A7ohnxtu-3kWVjRxQr0v8-ocOz5JwNdR2mx1M9t9-SDpno7cFdYf7O45fdM-K89-SUYTHHFBpnedVZK7Skx5NuT1zSX-irq5WAQO1MWa3kIAshjfGEB85N-2rKWyKJOsJrPwfZ-ey3WCA50VBm0yLv_aZWa9IbtV_Ah3HSFYlUvBLorFdZ4FGmHPdZ0TTszPL7MF5mKSswEPFvMMMj-lZNaM5bTbivrf2F9J2UHx8Mu3LQkdbdK2C-OBupbcTvwoZ2vpH-aIQCScYRPvH2hhVC8QKVmJ7aisJr-c-JRGciZla1Fk4wgRnJ3pWcigmXEtO1pCDFtsHXrl5eLc-WLpKGJP999riALz6KwlCqOFx3aLy0rcrHIM0tLBCtJNmNy1fTMntQT3uc-Por2VNOXnilcRCRDdv7I9m3G91ptmc7VfVxFebZurVfQJTX4tckFFf9MU-td4tTqgLIT4Jf1w6bFlYLLtjT3RZuTdaFh3MrXa-YlkkrjNsRyg_3rC0JqAPVB4kmPJczdJV99t09bUcsDF5QIrRWPKnuTZcv-aFeJukwULJBgFlNHGG4M3MpZTeoQpcbqXhlO1scK6kqZA6q2tHVpMXoykKY2lD28&flow=pre_authentication&next
+2025-09-11 01:04:51,911 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 01:04:51,911 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:05:04,782 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:05:04,783 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:05:17,316 - INFO - No more comments to load.
+2025-09-11 01:05:17,322 - INFO - Found 0 comments.
+2025-09-11 01:05:17,322 - INFO - Verifying replies for account 61574143311919
+2025-09-11 01:05:25,685 - INFO - Attempting login for account 2 (61573937972209), attempt 1
+2025-09-11 01:05:39,745 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARFypfbOaSDzMzV52hCi_9h8XHG0y6ceTxc2RdNxHoLnf22hUjSJFGP10ave-PtHp9EbzyJ1-1fJPERn7pgXJKLuXXQ3E3lS_NAWS_Qj_qPBIzSdX8QNgmps8MrwX3IWTG7z1eA9nvBCWFrc8KoZ7AtcI4qk-HQtg1MuhZIqXGVN2-5O-bYaaJWhEfAQlCGSy7IKFj-1wXRg0SxNVkiRlxtlJ5Bgf_GLYcrDYnQU1TV8B3xT1bgLd6iL5PkB_XI8dXo2XzNTQkFQ3J-p_1Ej3IVxHj_zM-RGLQQvfBi0pO3Y67KO8Tk2oXtuGy9bUA7ni4MpsmaN1pKgNUdXyrJcLtI2e8H8ZhzpsOdXTxxVq1UEzTwxJj2Tf8kDv38rJd_v4OOB0ISniVncMYchsTm1-3rLdQkSHRPAaM5KEg7WlaUZazvwFzpxuYEFZsB5NQWVHdlLrngXvKLXkSnvhx8biQ24lOYtG1cTbF7e5u9DFuGEdHXBVvnFFvAER71I9or5mi1-rVChdEySaptmi6p6fCaGtsjbI0tiUitKbH6wOpfCYiOReSP8k5Iqe62Hb_eqMk0Jr_76VbNXMn9vigA7ut_EVrgSWRw4cTBbK4l4oryUhiU_n_aWj_XruMcr17VI_Jco72-4YGqrFAcOo6wZcXpMgA4M42VyRl_iKDyJH7aecmqbzkORdcGEFdNxK2wfuBs8NN-sX23WDCAmUyiKega07hsXUgU9HDM3TJ5A_EyqEJ673bLs4S6ubXXBykaL-8RwdXBBCthgF7ahV9IePGe0ozfh4IMUMEKN8mbJaLY3YcTQWDyJ4YYHoGzjGWxoLFh-yBKkcEel7vMVvt61LS9wEz8uhUjPoVmyViDbgYzC_YROBjXb58XXRg-hnZmK_mgmAFqfQ_Rm4JB3nbTuJXSoFVWmZ_XrZNhH-bwXC2jYnaewnjFQOafJRWozJ1LujdqKxTDx3Eo7_Ta44OtoDoNaTA5IgO0&flow=pre_authentication&next
+2025-09-11 01:05:39,746 - INFO - Login successful for account 2 (61573937972209)
+2025-09-11 01:05:39,746 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:05:51,880 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:05:51,880 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:05:55,783 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/b89740e73298e4bd1b9996dcc107b7d0
+2025-09-11 01:05:55,785 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10283d090>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b89740e73298e4bd1b9996dcc107b7d0
+2025-09-11 01:05:55,786 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10283cf50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b89740e73298e4bd1b9996dcc107b7d0
+2025-09-11 01:07:32,037 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 01:07:45,997 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARGVFnv6WXCR2cOAa_j8lOKmVnJomSJr4J16l8ldcPqJebHQ6SnhHbLxdCqjEjOQaeAkfom71RNcVhOI4ojIzUQIgUu2xXvG8YrrEjHH5mXrs0YNre6UXW7ScGwW-1swkD9OW2yNSzqGd-96pMLm1E5imz-UmeZwRQ6GFoCaJXcpc0OSyaCpymaplgNmoJLOffgkxdzcnNb6hw8SpcK9R5pO2uB0O1OWIQVyi-Q5TTzY4UYzhTHyrphPBtdWhUH4Y07uANyhpc1z21dR9NLaC1Snk7S_tjgmCDcTpjFXCU41gLoduzi1xwDQRNM9flXDJvGUz3bfeRHHUJZI9syhEixIJLteae-1_EbL_-p24NwGe99lG2RQGtBydwndL5pB-sujdVKixNXHF7XpeS-cl_Y8af0w2pjrJcCuoLDEVlkPSsjCui0s-2mrbFDsVo8YmWK1McY2tu2-TASZMdE1BFTgdFsPNem53T9GP1P709iaF3MXPBTCUarqL7WQJOyzR1_L2ILzNMKByuaQVvath4PWR343ZNR-ErZ15I3UEA_532zGVPIohIO3lcq1JUzEiEi1c9SxxgWFoGMJonKiNin0eRG8e9fAIyoA8aaY_FVLS-6HZkRvXDqgMc1CYj2HeHLs5fl_HFyr2cpWf6vDJ2CzPlrIZzaFcIkSMRcDuLKm13FrXz2FQBDscOLhWd8n42fw2YUPrOuRNlMbziX5G2YJUXOBd5b2l7ohmnny69xjKMHhTTq19r4WkVaJWKkKJfkLup2HSxojgbxipJ8eSDJOnXHhRO2kwhfWuI2ZUQ-8wDr6BJnWcZEJBsMWvC4Yx4YfM9qtAKJ1WQrh0ogdTfiVriW9EYVmU4bFVQBZSyqTiXWvKpMnyhJWIaJqrOYBVJ2mlHdWGJWsbmofgWI2hu9vkARRoQp7_JgmGDaVinif1jPCI73gl9gd7doP1YZDI51iVHhUrKYiE2caVqak0A74Ov6PCIOt&flow=pre_authentication&next
+2025-09-11 01:07:45,999 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 01:07:45,999 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:07:59,687 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:07:59,688 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:08:12,648 - INFO - No more comments to load.
+2025-09-11 01:08:12,655 - INFO - Found 0 comments.
+2025-09-11 01:08:12,656 - INFO - Verifying replies for account 61574143311919
+2025-09-11 01:08:20,796 - INFO - Attempting login for account 2 (61573937972209), attempt 1
+2025-09-11 01:08:35,250 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARFocvDEu4cGAjjaUmX89sIQR89gNDSxbi473UifGGImoNryNi6ID4UGO0eP6rTBUd0r6PSZWvnTgqTVQk7X47CpHLqUec8CBUk4zlZYIVFCxxEZx_fRCE00wOb8MDBP5pPehxxBDLqA6TKJvLyZ3IY8e_qto2vQios5-IQWaRUiS28OYMtKVK_neNWzjKdbC68c8pLg0uBUbi3X7fflCH4eOQ9vftUjAqOkvfftq2O6LWFmnlIxOhFA5obb-VtCPRW25aAFO1vYdbI70xvLkYyPub-qrfpZNXr9fvn04sVaU39xqlZnQlK2fkP5aseRZKyZX7AwUvKzDJ-RS4ExXAQcvm3RuMh2LPLeaQVzqjrk-pHIhgmoYFYjvtZdhbWSfxQfCHdfWwgQs-9pZiRyNVlJ8AwJdDp2m6qw0UKK30JSgI7YFr1UqGodczDKGU5AwsNLNCdwW5wTIknVVQ49BBVzKD4-aj8kO3ljOHApsZ-m2-t2MvCTqcE5tJaRg9WNCOXd_oUNlkrkzF_0gcLz-cj4OrFJeBESAQHUrrA9DvIm7OzTh6TpKoB9_Yw9M3Mst4yVfIH73RM7ueTkbyuOeoR2zkXPtHngRqeUbhANH6UjRtUBUEXDkK3FrylbMeT8RPTdCt84mvn52CFhWVT_i9WuxLQrMuC5d2kxecvJNc1Wz-N-0BFZot6c9mECTv8-UimbrMRIbJqGvee7KGjWu5oYRnHyPElRz36SOpzqiAooLkDSwPSpntQc2DBSF3oN8K60R7lsjydTey8Pref9h4zDDdaG5EENIafpJp1xtfM1g6yHZQgR2qAPKanfCBZ0CCoqwRTd2uXBNCaf_OgdczyzeWhwFWJyh4MkmgUZjPmye0TMTlKvc0btges8vtmz8Ot3KFqxLH9_nYD8ATLZDceEA-8IIk9zdP-ZrUkevAp9i3eft9jn2kgHt2jLp0VSvqlgreA_PGM9Q2zbjN2drQoKXNs&flow=pre_authentication&next
+2025-09-11 01:08:35,250 - INFO - Login successful for account 2 (61573937972209)
+2025-09-11 01:08:35,251 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:08:48,094 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:08:48,095 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:09:00,688 - INFO - No more comments to load.
+2025-09-11 01:09:00,693 - INFO - Found 0 comments.
+2025-09-11 01:09:00,693 - INFO - Verifying replies for account 61573937972209
+2025-09-11 01:09:08,900 - INFO - Attempting login for account 3 (61574164250901), attempt 1
+2025-09-11 01:09:23,091 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=AREapyAIKIZzQ-C4CzU4IKFNrkgCXPls016yKmEaxxTaZfLB4yLjNFqC2JCikMXpOYDh4X90D1ri-uBcBKE82RaRHl11uFJq3O2Xdr-C9yFy8wijRjnG021hBiPRdj4R9Qzs-5X_HngeKTMiOR5hIWJlhlJIAOSxFP1iCwfRnMvDU10WaF-GVMMdPaX2r6u9S9frgpayZ41He_uSSq6F6Iub5AsywxrkFokTO71l5whCpLlG5PRhXiXWEEA6vSgpsyQFh5o47KnjWMWz3OSJxfduVzHr1M2Q-Y7NUqN8UfLoCh5ucdTCAF0WZbbjAYwrW4FTLS2PXBeHp6UiQNqIjhxSYoqxAxGCwzSujYCPZ4CpmI0WRVsdD8Hj114J4X5Fo-oe1aPeOE84nwmQ8p6rM3r8nmwncs5C235EdWB_gECYH83lQE4cwxNlHBRlHQ1hpH_15LM96uLRn7hrR3ZYgrKzGTi7QICDNDZ8Hhsrxmn6WAHEWsh0WFnL7OM0j11IkSvx3m61DpHnCMarPXAm3bpJ3U-UiqX85-vlfuyRknY0vxfbiGbGpgzOEyY1eTWikYPyLX73hdwMMX2AbxLWmjth3ZS19jGNt3U-6lzAHhsuNwCBx-WgXLPHF_-QGO4svY5jkPDWT3RVhBTJ24QctLy2JZdxEBeCusCCvjwIGWzhTO29_kGXgJl8xqbhjST3rZuY-zSnQjYg6wf5-nQ4qfj5gMiS0hzI9iiwvHZhIZU7j0ikLlh1szOCD5csZRQxhtjrDxEj6zlqozbKfzhQIJpzqbTTFmBGFVE9OcLNUkGQQa4UKHBoiB9HOjvpzCSGcsCOzpFQNBJ5ljEa_wKhpMsCd4UsjSsxSps9qt3kHuTasTx5dylyBzlUKYgWBQaE82dZE4N-6wq175uvgtZUywZS5rQ3tZ4gmTyJqP1MPk4UlCtkh58OxJRfEDEhZKSqoJ8bElyzyVYM8GM9UqOi7GbwZujJzrYcdZFY&flow=pre_authentication&next
+2025-09-11 01:09:23,093 - INFO - Login successful for account 3 (61574164250901)
+2025-09-11 01:09:23,093 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:09:37,005 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:09:37,006 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:09:49,366 - INFO - No more comments to load.
+2025-09-11 01:09:49,369 - INFO - Found 0 comments.
+2025-09-11 01:09:49,370 - INFO - Verifying replies for account 61574164250901
+2025-09-11 01:09:57,681 - INFO - Attempting login for account 4 (61573967041075), attempt 1
+2025-09-11 01:10:16,374 - INFO - After login, current URL: https://web.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fweb.facebook.com%2F%3Flsrc%3Dlb#
+2025-09-11 01:10:16,374 - WARNING - Account 4 (61573967041075) requires two-factor authentication or captcha.
+2025-09-11 01:10:17,395 - INFO - Attempting login for account 5 (61573911123508), attempt 1
+2025-09-11 01:10:31,679 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARHZueXIXL3JzU-86R0SweOijPR212LMkacp4lGTId-mjMH-_orJHtxdD4oLmK-Kb9s6ayh8yQkGs6DjWsan0knE9ZWb3GqbUI8CD6IpQ_L2iKw7fBhM-b9hUznez821SCx4WSR9wVjx8GOtvOJ1UUzGJy6jrMRSHYFZDCbA2jgCTHYn6O3rAFP628cinf-SucSwqQUf3CLcCMdpx5ewwZ1fIsTx93fDsXreoJWeUqc15aqNTBCC_xrpuWOCXHn5FbV754YgsSQC-jG5px3rGoFqfKv99yDkmFEvy-r6a8mLPmr_FKGutZ0YI13PPF16WvQEyjuiCoCLwXn45-yscLWFbGZfSn97LrdfjoSIAEcCc9ui7ipHw0yXYc-z8qkY2TWvrFdX6zDHGdUYnVf8hmC-hWNj1PlxBeD5eq_n3N53G-87EGgJ6Jp7DuZfjhm_qRtCh_I1zI7Z_-i8Ek8FVUawwFZHcSEJQUveIoqndvXtZ5SbPrnwe_E-9VUUup8ce4a42myEknw1PeYsfFlK3qUgnIkpq6RcYuU2pHxJlxHgGdm7BDhroCoeu3Jgd_qjGH-YF2RmXqaPfLNpQoB8dspFbvmf-Yd07sFrUfpspiawmudjW9YQBqZa7GR9xHGdXnWFEzGIIlFNK4ACIfd9CN1ggO2QiGCEYmLPXJ-DEVOygtaM003J69O9O_vMvknF_xautvFiD_Hr8TNaQgGsS-lf1atrepxctnAD0mIKPVfy1gppU74QTyX7_NrD_9upaqA7Y-l0QRzdlUaMYCGAR7lJtytjEu34dwYdObAe2CTEOD7Ya0AgFkMAQmJ4G6R3VafY5im0O7R7S5fF6WzZ0aoh29zE6uiZ32UOkEJM_qjebELPwgReYnBtpR-a5BKjVQjv_WZfwppjIXYWeJRfFdP_T450bdnQhAeyi0e_PfkHMhhI6cUmbtu4UmfhfthVsKSbnooYGinJQ3NaQl2fozLRJvP_ucbA4SBpgw&flow=pre_authentication&next
+2025-09-11 01:10:31,679 - INFO - Login successful for account 5 (61573911123508)
+2025-09-11 01:10:31,679 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:10:44,635 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:10:44,636 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:10:56,999 - INFO - No more comments to load.
+2025-09-11 01:10:57,005 - INFO - Found 0 comments.
+2025-09-11 01:10:57,005 - INFO - Verifying replies for account 61573911123508
+2025-09-11 01:11:05,758 - INFO - Attempting login for account 6 (61574164130888), attempt 1
+2025-09-11 01:11:17,929 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARGrtaKWpaZTS00DGSrHA8UocQiO3EcB8KM6ivlkyL2sxfiWrbrb3zvabOSdgECqeQAVvQAqsi1Sy-FpcI_Y4o2nT5PjmPcZ_6VE9cadR0pXZFcwhqQ-h644O3cGvPLMwRrXsfF_0WOBVMH2Nztqi4pF9REGE_p--wfFoEaAY3-lYEJAO53WPra6kNtcf68DwOv3bm0b7DWXFYQL-eLeMF-rtzb2-_J5jJ9Lv1QWOBt9vjk_XEt6BqZ53L4qwIHYaJp5nwFD77q3YFwRsqDn76S17l3vIVFyfOkjy-KAxN5J-IncJsx6_3BZ0vmxo_HKZ6xPalcui7VFDrPh0BgRMbq5M8lqwLTDp8cORxTRSPg2ouFpFvv812hG00Pn-29MtAgci9B1dG0tvFduF29RwJ8xGZyzv4wtkyT3jUCE6VWMLNtIRNIdBTxHFIAsLPLAfLVx-2uc9zDlZPrdxOhSjrhP4kIfQjcMM8f7z7d6Oa9NiFJ8S7ULN3jsJApAPDQzpWBvkezY-bRi0vxaxsRc2xt7ZJE6nYMaGK-cavYsJH_o5AxtvFwYvg_ERGKtZzNr2x4yUzT6ADEVPpftdGY_jz2vvDKUrwNETs3XHKVEHmukba-NqK5ZiFsC5PjjhkPoRusr9U42vZ5Bd5qDVMb51W8EB0touVTfSWAhlD22vDtz_QYfUGpMLhRPgobCWpVTWLDwkcs-wcwgejcf7F3cWnvKoqI7w-NzGBJCyD2HbPzFu_BfsfAEA0rno6NbLEQ4XRMa-7e8x1c6znL2SeRONR92692ZmsZJSEcAzcFBYx48xYZ5DZ1nC8giP8JI4BXqOTIsUe_B5DiCxY7b6GlrEW083YrF5RchZxiro6Z20TFmbYQGZqZdY3J-uIM_bX8pWWneFzv1HxQcJGCq6OHzrbN7mcL27yvyWRSdxGODJBEquj0Pdq0w0fu3TJByxp3Cm6ZA-skxWqzRfpsrgMcpQMyGJB63ynITUqV73SI&flow=pre_authentication&next
+2025-09-11 01:11:17,930 - INFO - Login successful for account 6 (61574164130888)
+2025-09-11 01:11:17,930 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:11:30,847 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:11:30,848 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:11:45,052 - INFO - No more comments to load.
+2025-09-11 01:11:45,056 - INFO - Found 0 comments.
+2025-09-11 01:11:45,056 - INFO - Verifying replies for account 61574164130888
+2025-09-11 01:11:53,408 - INFO - Attempting login for account 7 (61573992659575), attempt 1
+2025-09-11 01:12:06,522 - INFO - After login, current URL: https://web.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fweb.facebook.com%2F%3Flsrc%3Dlb#
+2025-09-11 01:12:06,522 - WARNING - Account 7 (61573992659575) requires two-factor authentication or captcha.
+2025-09-11 01:12:07,535 - INFO - Attempting login for account 8 (61573688085322), attempt 1
+2025-09-11 01:12:21,579 - INFO - After login, current URL: https://web.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fweb.facebook.com%2F%3Flsrc%3Dlb#
+2025-09-11 01:12:21,580 - WARNING - Account 8 (61573688085322) requires two-factor authentication or captcha.
+2025-09-11 01:12:22,593 - INFO - Attempting login for account 9 (61574085774897), attempt 1
+2025-09-11 01:12:34,795 - INFO - After login, current URL: https://web.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fweb.facebook.com%2F%3Flsrc%3Dlb#
+2025-09-11 01:12:34,797 - WARNING - Account 9 (61574085774897) requires two-factor authentication or captcha.
+2025-09-11 01:12:35,810 - INFO - Attempting login for account 10 (61574038737098), attempt 1
+2025-09-11 01:12:49,012 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARFbNdt3pU-1sEcHHvk-ErHq0J8sLOC73Qpqg5gH9cnP31dqcz6X9DE26eRFHzKREXnitBMUgMysiTPWRHY0sL1Ps7rRa-wMPcoD6VPXyPc80FYWiXuSek80VRBnb3rHi3MqkmVxeoCkGAXQHmpiCpINxWTl2r0PToWFBZXvZPuSSNlHXDwxq15tt-q6XUjTf-EqjXKKAMXg1DScvUsn8YveBg1JD1Wv7sTywdXAP41eldjNf5rgyB9as0wiNTUItRfvQJF0bu3y539qL9tj6LB0l4y45F2zbmyf-ThGcLk9bkvWCa_YDDqLmKxELyAct40kKrWcqsga1MT9nyoXo7W3BAzg4cxMH6Rskfu3aszb-nbtiRnkmpNIvMkdD4krrx6w9mYPR1Qp6LkXa89DkgdAn6sqXa2nsvAFL0KJ2vk9w7FW6ic67s4NdocbR58KZbdkzy9Pkm6h0cvFSfBEiYU1MOPmC4X63kQpLQkXQDFrMscWvQ4oKac7UUROWNDNQ6J8_lszuHbEt8c_IXCi6irarcnaeV4JZYdABKOhQ4E42jUdRRanS09bb-WErmTpXfvgeWIy8AKxZ9I2Ap0bJDgvZfq1sd3nZZT5nLL3ccfsD0TwVoRYzTmbIf1zGok57YiLxY8PnQ_sbCRnQQSOdsb_QDElbmbpWKjD8pADnWY5_Nf-ehesEMarcMB2bZDoUjpexWTz9r5FF0MZPOUsZk0tpV3i0AT7Uul69H6FrccWuB0SVIszSbwwufxgpHza4hObG_DyJlz65q-eTsiKFj__TaN5E4njGgLJ0Ad7YgSRPt2PV5nv7FssN4MOXrlHANMGo_zOH21_b2gbSTaHKGExCTfitP3Vun79U4xqEBkEGj3Jxyw0lKz74n9cgoyRbz7Q04IxpPyFkY3P8z01DO5jrIqeeBC4I_CaOMObg7iblHtAUbfy63p3JvimOMW8Vxvdyn4mJtbhPJp0ETUeOtCKtTo&flow=pre_authentication&next
+2025-09-11 01:12:49,013 - INFO - Login successful for account 10 (61574038737098)
+2025-09-11 01:12:49,013 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:13:01,242 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:13:01,242 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:13:13,853 - INFO - No more comments to load.
+2025-09-11 01:13:13,860 - INFO - Found 0 comments.
+2025-09-11 01:13:13,860 - INFO - Verifying replies for account 61574038737098
+2025-09-11 01:13:21,936 - INFO - Attempting login for account 11 (61574079355208), attempt 1
+2025-09-11 01:13:38,126 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARGJ7XWgXJNrYZdeJsRFICH0VP9ZzIQMgcWd_7vXF1A9VItTKO8ZnreUJDBfh24UM9Ih1dGtnORS8mYY4amDIOrWNafEfgr5cEFwbDVfE6X0IO3o_fsOKf0cNeHndKEqV0t_hGIXKuk-scyg50wW6S8UkqgyrJh64Ea6I5B8DAlLbq6mIyb5Fd8QFoNAmP3zOCdEoHEa7nbAS-CmhNiTezJb3riF5GjexOaEhs5aZ5V59rN-B5g1khOYchwwtMDovC7tE36hT2XNVPBdu76yfnJ4RnvBPNAyvFMDdzDfjjQ5O6RZF5lGxkq7_boJXpkoKsjXRdy-ghLwp2vzZWDOlljTTu9ZGMuz9cdlrm8npOMny-36tHNO_JUKp0ggVdzxCD7BAeAKySmqbgx2Jva0Z-NVNz0u6eMPPm4ge1-SHwmDHRSjYbAy3ieFJne2y1UDN9dv_T9qb5yHipvxhUo9ZUd_aQUBg3JrVP1eNI1ge8ShKAsU34qE2pIUjmxByldSnxfZsfJeRTYri53UDF-m5hXfKHwCIgFbCvCbTSeYe-Td71W-pAUHc5R0HgR6uAL9ETT2UrJLO_QLj0osuRmR5ETo7IDD06LzAzocaDTP2g1l3HtcUKUUJDlEo-sOYHZGPBlwAGXfMuAPfJ_fI1FKDpdGZLp73zMJkekRZSrPHV63gXtWr1EQTH6JLv9JqdQXcFd62qDXW3pZ25r2yb4k8Gdvj_vttKo72-dNFNqOBPvI5Jft6wudOsXqDd-FJk7Je2TsdsicWRF4MNHgHr8QnGQlpJgQSO9pCRDpUp3s3GP1IteJjPVru08t7OWO5HIje7zkshclLvltlqytb8d48vR2Vwmb79EZUingJzK9NvsX1S7C0zVguQnz4UtYT4C9aWNMWZZCVgTg0Ew4Rp6Sf9emuFgLGJaqCgQtl0wukFCEZV9OT1_jd-6mTq846k_m4x_-gku4KRnMucT49mxFLQrIQmkR3ZwA99DZ0A&flow=pre_authentication&next
+2025-09-11 01:13:38,127 - INFO - Login successful for account 11 (61574079355208)
+2025-09-11 01:13:38,127 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:13:50,149 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:13:50,149 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:14:02,296 - INFO - No more comments to load.
+2025-09-11 01:14:02,303 - INFO - Found 0 comments.
+2025-09-11 01:14:02,303 - INFO - Verifying replies for account 61574079355208
+2025-09-11 01:14:10,538 - INFO - Attempting login for account 12 (61574156901181), attempt 1
+2025-09-11 01:14:22,662 - INFO - After login, current URL: https://web.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fweb.facebook.com%2F%3Flsrc%3Dlb#
+2025-09-11 01:14:22,672 - WARNING - Account 12 (61574156901181) requires two-factor authentication or captcha.
+2025-09-11 01:14:23,687 - INFO - Attempting login for account 13 (61573995269464), attempt 1
+2025-09-11 01:14:39,372 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARE8RwUUMGMBdlJ7HTVQ2y69alcF3v40IQzKMcwJaju_Xw1kaGsywVgBEDdgKSzvF1O2QDYLWghln-PYbBxElKqUe7JUumNUPuRSvFPyvQz3McY8iuULZvoavRPY55wyOdUbGVg43FRmM6TEqV3qbrfSgjrzQLRVOTR5Y73FErEPpjp2iM52vXSnwRVWa3f5yYPhKxBCt9ziQ9lgzWb6KNs-hqA09OaifeahUdBP633q8UGj3pWHojWXQjpwgTv8bNVIDgiteGvcCig0VCsIU8JktuvHuf1jPvZ4o1BBd5kCJA-_sPCngoOLzgZlvS5_D9ut6JwxIj0i9M2XLNU8N5XvLaafFAXN912xXAYsrWVgvTPLZl0X14EtubSC35L3kSrKrpdZRaXFnjUG7OIpQ5aPVF6B941FzxhOilPA8YVy5mehR6L88uzaaTwPf2G-0rocllDmayFO_rRD47fzl3vsoF_lIzV9HSHZVWO3itb-zVRpsm8oZ9pSIJ84yvuG7di3Q_rFFTO2RSXjZoEgy30reGkopaEflepoFaf6MCtDwZPU1nMYqF04d8xc-dwxfQyuvfcpSjsmsKmh-BKkXGSsVcd1tew4y2-yRLqx1V5mtm4rICHUDdubtik0JZ0n3mP6MB9N6lkEkVo1H19e3csMSpnGcqJzben6CbsO-SWi-60PV9xUIe7PSjKZDGWk_1R-burukrBrMOs8v9u-4AyZ7MYd75z5FdRe8lrxQemi0cFUAeUV1AG_A8BPikT94GY0R6QHyugF9c5uqHEzHzpHt3sKvd75QmWf0XjvoegXxAHmD5_5vVtQHFISBQVAlps7fqkQ-l8EZJBisSNlvAF7lwvVv7cN-XFHhH7WYUmeRTV_8R62ymDHP9BgpfO8K9YmB92ABJGUfiXKZRcpxrRy7t1yYzqrCFPPvYxLtLecdLnmMRpI0jvjAPkSO_9jwuz94fYzQSZER-CjjgFy24SzpBgAhVvw_hWBPUrdAp2mjpOFkg&flow=pre_authentication&next
+2025-09-11 01:14:39,373 - INFO - Login successful for account 13 (61573995269464)
+2025-09-11 01:14:39,373 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:14:52,171 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:14:52,172 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:15:04,316 - INFO - No more comments to load.
+2025-09-11 01:15:04,321 - INFO - Found 0 comments.
+2025-09-11 01:15:04,321 - INFO - Verifying replies for account 61573995269464
+2025-09-11 01:15:12,419 - INFO - Attempting login for account 14 (61573494376845), attempt 1
+2025-09-11 01:15:26,518 - INFO - After login, current URL: https://web.facebook.com/login/web/?email=61573494376845&is_from_lara=1
+2025-09-11 01:15:26,527 - ERROR - Login failed for account 14 (61573494376845): Unknown error
+2025-09-11 01:15:27,542 - INFO - Attempting login for account 15 (61574072065599), attempt 1
+2025-09-11 01:15:39,623 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARH8Wi5igcI8U2ZeiO008fivcwuyP5PQSF6tqM8YbUXTKeLaQc65nOfFhKWH-bqlxsLRe6_GN5vHyNxM7ma547KFpCAOUM7Z4IBwPv_B-vdjX_kP_qli-VgFp4kSeZiRNduKCJGYgLO8NTvNKfQ_K2J-6Sb0Zs8CDvCJikpyurAyIMOFS9iFhk9lYQuHyGKcSoV8rVBOrtZBFlmPL_BhLnzQrJcBxUkY6B5NvnD4z2v0lokRPK5Ynma-0sPgMjLwUH8lw7TEvYTp1WX-xzGjK8_1qNTUp8bUs8yifjtuIGKtKXEpgwpTYAvpgMCBsvl3wBkZBbJ_kFUPNC8oVhNXDqN7YkuYu0gaKMQXjtV2pGde80cjca9bZu-NhQfxB8euHmfZffsQuENooCPeWBy7o81Kidt6FplmEw2azGB-Ibe5-jXdu1e-gAzFmp0_8w5L-vuXf5IARrGlZSDgWUO-hbc4pPb6_evVKGyTAOv9LDEspY9-X3SLKWdMyvT-shabQNwCF25jDTUEvvnPyF0SwrGOkxVUZCb9kk0o7YhT301zH15QpjGmBSOZiGcKKOuHMSdd0Ewuq1EwW0KCuBkSlLXwxk8c9P7a34EY4ATJ-Njz88Wv6S_X_C3-0eebk0X3qHlt2f7TdoYO8pnisU-JtMIpEZiTg-oq0fghytheJur3Y5toRSt-_ZtjCre0OVtKoCpCbn0bOxt0J8wkyG9h_AC93mPtP6EMwLX_nSm3B0eggfw0PhqfG5u9iB3B4flNzjMwcfHgqsOFQ-HQqKrYwRNu7_YTDXfwa32snQIWwwoqEzF72WtdSVjJvKD10wIIm3gOFUjEc8cgmjtQ4dFODhIjhNO0Mo6PljrzE7QmTNONE7-AaC3R88rmDfznZUgNTh8FCqYlKtpTBxnIl3dbQDku_XHO2DP4yv6SmIW9iqdCi6ZbtPipSmw8XNebTmoaYAOgqLNK3k-zffQ0jXPlh9L33WD8gD4PtMoNCsLypuI&flow=pre_authentication&next
+2025-09-11 01:15:39,624 - INFO - Login successful for account 15 (61574072065599)
+2025-09-11 01:15:39,624 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:15:51,808 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:15:51,809 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:16:03,844 - INFO - No more comments to load.
+2025-09-11 01:16:03,855 - INFO - Found 0 comments.
+2025-09-11 01:16:03,855 - INFO - Verifying replies for account 61574072065599
+2025-09-11 01:16:12,188 - INFO - Attempting login for account 16 (61573657486156), attempt 1
+2025-09-11 01:16:25,303 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARENUeUjXvALlnhYkm2tB6F5tb9BzdpWpstXqtwpJzX20pmuUDeD0pC1Xw_K7b8u2n3S5c-sjKtcqRulRT7gtEgNAc9Lo5LA45p5VfIzFGSOJj6NXRI2cGjN1Bpg0tofUlYH88a7QBK6MIkRuFUI8tlKSo79WBsS-Iu6EcCGD7HUw4dCZPaEocKtIDUKh4xyonR1ISUv1WeSZxcN2nhp1Adgm_upHFlkcJOeBzxZM1xVocrWQMseN8AMqqFE98w1CIgPnMDLTFB9k3an1i0GauDrsBd9rJYWw8LmBP32ZLMp71mbU6WQ5Grie-u4jMn7HRaUV-S5Igec1Yqt5mlg2QrIsmfQsAmcM9UgqPosiE5uTUs6QenrohV4j6U5o8DR-DB6rt5ZhaN_YWlKuUkzvZvgJErC-Zjw-9eK1udNP3UtQKY3sOQrbLmxwKof8M59hMJpPejIRRS1ar-iyzDzJUQRSa4RRpa9bE1g5k7n-I63U4PmbUjT4X94D4RWNq68uSOOhCsAWRRiRmX6RAKJFYXgj05mRVHwkvaAw42RKlVDAKY9P03P44eJu7o056ct24boMOlclnSY_UKV9_1l2l-9TDMIEvBH6ayzs7UsXz-FpmAT_P2TvJCPaqwt3sQTml5d2ZtetR7fkhPf-wNms8lV1O8HUJhncCo0aGQWC3VvHZ7fUwSP1FnCqXiZT36jWUtkVieZ9x6zTbyxiht46JM2v-oIQArcL7ioXScJcJMDfYEGZUmqhIPa2sVPLO-I4gQRQ5Jr3_J-p8U51disQw6KmbXAm5v_p5jMbQ51bqtWBQScdGlEy4snnul7NQrhh9Oz7D6lSeUtyt_FEy2hru-79d0GiBrVKcf_yddgE-ani2_VjYj-87JrRJmicFIqdPU7-7JU-fsT_S9ZaJnUn_cUmrXoZjxsd79_e6SLbmt4zn15nduMVOQLlEAn-XpUJrImcLfrw-djHy0kCs4W4chTA_n4&flow=pre_authentication&next
+2025-09-11 01:16:25,303 - INFO - Login successful for account 16 (61573657486156)
+2025-09-11 01:16:25,303 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:16:38,299 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:16:38,301 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:16:50,659 - INFO - No more comments to load.
+2025-09-11 01:16:50,663 - INFO - Found 0 comments.
+2025-09-11 01:16:50,663 - INFO - Verifying replies for account 61573657486156
+2025-09-11 01:16:59,231 - INFO - Attempting login for account 17 (61574059196303), attempt 1
+2025-09-11 01:17:13,569 - INFO - After login, current URL: https://web.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fweb.facebook.com%2F%3Flsrc%3Dlb#
+2025-09-11 01:17:13,570 - WARNING - Account 17 (61574059196303) requires two-factor authentication or captcha.
+2025-09-11 01:17:14,583 - INFO - Attempting login for account 18 (61573915443498), attempt 1
+2025-09-11 01:17:26,689 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARH6Z-80_uUqDXVCppFIrRGD6hzB6hqieKpZIvkHkac1sPtzM8fS6GD5AvFZBH2hbQKTd8KQw4jTqdBPUh_RlPbGM0WViyiT2EGnvPZyHT_ydVBL2Ti44Nn4MbTnV-QcwJoLb28aRTyfr62ZRS8auSXMYTazApjy4cYF7xiocVqOvJN5jc5O4AyDtgwXpIvcvHBzZEOQW3adXGibJs7Z5IcpzO3xfH3LoV0zUfpBFbDm7uyILR_8b4izkGlGwfzOZRAcbLCdaM5zqYyuW4nEIB3tR_6-qedzqqUd_Y-NXPgD8jCCCaVN-7IGaP0AOQh1h4tmJeOm34f9DGq1DfJKxaTMeLj4jL_fUOE37hm99YV-uiY7XyAnZmzFIn0SBCvBE7noxjVmznnOmpCpuEg_EGWao0V5HGN-u88ydWgcuLtLtvM7ejz6lMZUwueY8WYQCgSHJ69z7En6flqReRNMwJUoeLpGq6v3-Q-kjCMXq7MJKqHQtzvCkUHCoyv5QYaX-myQrn-ULueE6UGzvSwyDeNtBsS7XID32Vp1VAjHh8miWOPjbrghkVhi5VRrvS2E1gzn0oicNLxjBUbTDdj1QT2t5O8sK9MHOgW9TagAQq7daapJeTXjErOgzS_5XsFbBfWXu9v4sE5ozXeZhsx8pv-nPhVF1i-P-jHRZnrK2UOBfA0Lz_s0MER3YKYaf3vNaY4erkatMb6yjqaybm7v_4HyGDxD6uT_MDgmtzUxQyhCghHrfZU944OLrgMxJyq4d9MKWwJsDcwGDt90QN04v6HGfr5UZRJNu9Ppck-BfDCUIOcGsXeKNRaXEFIKOersvUBtfDiDqqSa4Q2-0eUUhJU-RMgn_H11HgJKP4UddUoIH2kSQsisDCX69wmiY9b53nuiX73jk3U4lXDRWjSCWKlqhdiy6Hdg2cf-P-6-nZexxM6uxDZ-eQsXtrRWgoICX1Y2EuYMvWRfrdHujJVUAvPPTKV-YX2GO3Hn&flow=pre_authentication&next
+2025-09-11 01:17:26,689 - INFO - Login successful for account 18 (61573915443498)
+2025-09-11 01:17:26,689 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:17:39,063 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:17:39,064 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:17:51,130 - INFO - No more comments to load.
+2025-09-11 01:17:51,137 - INFO - Found 0 comments.
+2025-09-11 01:17:51,137 - INFO - Verifying replies for account 61573915443498
+2025-09-11 01:17:58,928 - INFO - Attempting login for account 19 (61573506527517), attempt 1
+2025-09-11 01:18:12,040 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARFaY10grJFJnt08YD2p47OxnNfL4yj_aFQJfEEfKiYlC6E2bsw7VdJwwvsN2sM-jVqYr6u2qBwhnrdsIPbfwoXNMcI1hoErGIUsK-tPH54wBLdp5mnN7kjsvvBr4Ina295I6zn1Xex8e1HsbetA7hXUfGMnQe1toH-V8VPI4XzfPj601ebX0XphyTf7fLsb4kAucHmvJPhvYcvQkMBJMsWEkjqkYswQE9-bE9yVspXTvqNFTJffGxHkHDg2Jv0smwfQxZ902gT7svq9ERwNzwtT-roq3Yyu8IZbpRtcurEGogydGHn9isGLtJAjNune4itqOCNz_RdrAM6CSkHBrcmVss0hBU9l7uMKkFLYWKiM_C5GvWg3Ebs2dpQbO11xJa2PcmULcZpAlEPHjN4nib5NngLv3tBrTVGgryoOj4KCKzqrP5OFUQIvqcstLBGpYvzDLbC80X-J4GlJaKSQKPYG9mldeQb20XFWP175fdjnpKqz-BUppTCWVI0bCcd0X7rkAgK1ArNGrt5s6NBJD1vvaE5R6dSxOeiJzh4f4jTaD6AeRXIkdj3ewCyXcJybj5IKXj3kUlJIc_CnFDOVbMJdf65u8QcnuzrBYndziQSPX-bDEfMswFVi5E-y1IrjRILo_iVGugduXwMn5XfZ4a2OHNto8ZO6ugD4X310hXqTiVPw9_GyWrUPGTPIYzZV8N_tciJ9D-U6mI6pPU7LDN8J605SA2Ob_32QboIIgD4WOjcpIXOBZgKUj6KHc8Y3FZZSPOAft9HKa8yjpzBgvOWXNK6hRQ1OFEVVxl9OdYLzXmjzmTbyt1gwb_ma_GjT0OxpfrDlscnfcw70lz67tzfCqs4OQEJnPdUoP_bySbJp3v-Zw93b32DABAPlDlXalKDOM5zG1qjU85DP4A_oUHEiE-1vGqFAz_lGKZP3OOpI7y-6EeVTY9X0wJ3rzl6C39Aalv2KRm_kJ4Qp1D6YLh23GcY_wok&flow=pre_authentication&next
+2025-09-11 01:18:12,041 - INFO - Login successful for account 19 (61573506527517)
+2025-09-11 01:18:12,041 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:18:24,516 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:18:24,517 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:18:37,986 - INFO - No more comments to load.
+2025-09-11 01:18:37,991 - INFO - Found 0 comments.
+2025-09-11 01:18:37,991 - INFO - Verifying replies for account 61573506527517
+2025-09-11 01:18:46,151 - INFO - Attempting login for account 20 (61573708214027), attempt 1
+2025-09-11 01:19:04,309 - ERROR - Login error for account 20 (61573708214027), attempt 1: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010550f674 cxxbridge1$str$ptr + 2882776
+1   chromedriver                        0x00000001055075a0 cxxbridge1$str$ptr + 2849796
+2   chromedriver                        0x00000001050310dc _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 73436
+3   chromedriver                        0x0000000105078474 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 365172
+4   chromedriver                        0x00000001050b966c _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631916
+5   chromedriver                        0x000000010506c130 _RNvCslE4myv9Sbr3_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 315184
+6   chromedriver                        0x00000001054d3ba4 cxxbridge1$str$ptr + 2638344
+7   chromedriver                        0x00000001054d6dbc cxxbridge1$str$ptr + 2651168
+8   chromedriver                        0x00000001054b4640 cxxbridge1$str$ptr + 2509988
+9   chromedriver                        0x00000001054d7668 cxxbridge1$str$ptr + 2653388
+10  chromedriver                        0x00000001054a5ddc cxxbridge1$str$ptr + 2450496
+11  chromedriver                        0x00000001054f6ef0 cxxbridge1$str$ptr + 2782548
+12  chromedriver                        0x00000001054f7070 cxxbridge1$str$ptr + 2782932
+13  chromedriver                        0x00000001055071ec cxxbridge1$str$ptr + 2848848
+14  libsystem_pthread.dylib             0x0000000197dd7c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197dd2b80 thread_start + 8
+
+2025-09-11 01:19:09,316 - INFO - Attempting login for account 20 (61573708214027), attempt 2
+2025-09-11 01:19:25,568 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10443b230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6bbb7bafa396cb09b0052ab4819f7623
+2025-09-11 01:19:25,585 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104515450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6bbb7bafa396cb09b0052ab4819f7623
+2025-09-11 01:19:25,588 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104514f50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6bbb7bafa396cb09b0052ab4819f7623
+2025-09-11 01:19:39,192 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 01:19:53,405 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARH0g7wOSgNyn9SAwaZjGTuzvmP4vk5CcHAs-IGQDKlxY41PciD_Pdf5Dm8207JgKly5vpJ7HeZZckCuKzb5Kw6iwIvnT8FFcFhpb2zi1l7BnOYdcALVopEU0KVwZF3pY0PI-hf0siN7kngxvvrOYaYyU0QNXcntlCKGv-1bz_Nab3eFbDtdMjCCIJ4-OKmnlG_ElM-h4lXmK87Rb0HVXvnYBJjSkf053DU_XMJ3d6boi1ZouYDBcMR-OFtoe5NfRlX8ojIdTCoPz4hjNScdOCU14px4JvTokRc_rIRadgc9xw3m-QQBxCGYkCi0dB6YJWXugZgl3lPH5gvKmzFDI13dEZ_T29iWQ53yRN8TV2sbxeArcjOcxo_H-ss-XRdaxILDEw1TuCo4aDklTRF6Nn-Rv1yrfo-MC0h9B6DiPXztRb389SkYvloe8MMdt3P44KDf2xznVc_kEirJ7YPo8Tg0N2Wh3V9XNMCpM_9Ml4IT_5gCnrQUE5vIGePW007b1v-TvUbel9mCXXHOYfh0HZBilLS9ydb2lsn5bCA-NwvOWYlNCay15-A7ha2gu9tRuh8QNefnJNAOwZNyTnf6BVHiU7y1-iFKQMENIiJYIyw29PiEWbTfCrJP5Y3-XBCWE7KVMQgy8bsRAmjOyBnzKJLRgMZdb6pQ2GoETWdEzGnlHM-kwT0M6kwC5fTkqB1FqvGpNiS-ZJy3QjMOEio4FKJDl0WdUIYorvXI8smnIWFMerg54zcFk2mX4gIP9eWOsq0OxJSAWS4L41lmEw4bwLozjmYOOCcEsRfLW2zwMNq8JD4MUVU7Ei2s_uFt97Qm7_zE6xSOlLKfuSPb-FgaF4k7q-H662pM2IxMRo9bESiFSaCW1EGS3r-ER9iC7GgPVO_DNAc6paDR2pfBTPgJOfm5sdoc7srOmx2FQ1hFKidO2_fWOLoU6J5aJU1n4LX-pFfBCOzeSDj-OVkaGgIO-sirAIE&flow=pre_authentication&next
+2025-09-11 01:19:53,405 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 01:19:53,405 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:20:05,851 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:20:05,855 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:20:17,794 - INFO - No more comments to load.
+2025-09-11 01:20:17,800 - INFO - Found 0 comments.
+2025-09-11 01:20:17,801 - INFO - Verifying replies for account 61574143311919
+2025-09-11 01:20:25,833 - INFO - Attempting login for account 2 (61573937972209), attempt 1
+2025-09-11 01:20:25,884 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1049ab230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7c83bf63e55e0d40dec8c81f731e8b88
+2025-09-11 01:20:25,893 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a85090>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7c83bf63e55e0d40dec8c81f731e8b88
+2025-09-11 01:20:25,895 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a84f50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7c83bf63e55e0d40dec8c81f731e8b88
+2025-09-11 01:23:14,746 - INFO - Attempting login for account 1 (61574143311919), attempt 1
+2025-09-11 01:23:29,086 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=AREOWiCLb3KD1ITB53wqSzrTDGkR6kZGzai62sjV-y28qoNm8q__pf6clLF-eAeOWuWwiRLy04Pl5JlBci6b9yGfiLuc8bY7RMUPYivB73ibl9aRrcJFlqHN0YVYga0s0oaSaGsEHF4m20iUI-ecQI7Hh_SUGlirDY9qTWIwcItuS1igQZca_x7QZy2IMXGcMa0VKYrCB1Jb8GLr1Q0MJHrZebATeOByO9tb-C9qQgGD6Vj2H3tOjy9qo18HqEdpOUL13Ruy0mo7bFT13vy4LZjk8ef8mNRva3m7JBX15wk6dHiim2rRnT0j8SAFw719nLpjpNJQDghpEj7ZTlt-I-fIUR5rf2YXF9gRH93Un12sb0BXG6Ox14xCv51dsLgZtVYm5DHoEYWLx9JHApMSJymjSsFWw7Sw2lM27ZnmZIL6CkoLE3bpKs3L-2ett2tvYfK0bZ11OofJZDl5MvJnpNM5DY1x4czf3JSuzEgUftx5M_B_8oboc8nSSAj8qCG-kC79Eoiu4FQXuDJT41Q2g1m1anZhzMkVxNKh7sfAyJ1PakLXUAV-X5srKBlFb0uJX8f9uU6cOwScBn1kx0RB89itsQuAUs0IZLFtLtIIrR3sQQLS9BkvGtfTd8SFFXCLT8YKLPvOYnURxreAMceFUrU6M46ME4Y-YrG5Rq69rdnSvBcMuDcWw_1JXqszY5ktRXVAupCKudkBYp7NwaU8QRCxO3yIDZ5OKr01lkTxuFcfKK7fdvGCS9bk9BWHki9c85penXEwoo8vcjUbYPXYpXL4FSRD-KkM-dGL2el5kbSq8A1XPgm7gnIvIZelHmFNnhJsy9G2Hcw3sdbH2VAJSUbAYMLDfnltsk6Ui1ihIySvSAFdD5nxliufIRi5nMOI8WakpetictU9oqiDBKcxOgcN4aP0ROsNfVuOnsZcT9h7_pjGvJHtDzopNZnH8WFKyKX5Ja1h6zkIok6xzCG3Avxh5k7b&flow=pre_authentication&next
+2025-09-11 01:23:29,087 - INFO - Login successful for account 1 (61574143311919)
+2025-09-11 01:23:29,087 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:23:47,131 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:23:47,133 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:24:05,619 - INFO - Post page loaded successfully: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:24:05,661 - INFO - No more comments to load.
+2025-09-11 01:24:05,680 - WARNING - No comment elements found with any selector.
+2025-09-11 01:24:05,680 - INFO - Verifying replies for account 61574143311919
+2025-09-11 01:24:13,887 - INFO - Attempting login for account 2 (61573937972209), attempt 1
+2025-09-11 01:24:27,993 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARF0cOQMEdLE0PHCo8pIGSa2g29U3KncVEe6Tj5hYIURkUNjJDPiN5nZ6k21rKToEEWgL7aU0oaep4_KozgD1b8zXT5r2yI5cDp2tlmK9qYNBIMbPx7Rks_YiYsVyADn9mHQq2-8HmFTTjLlDXTPF9o_LOJAF0bNHeUEL_dK4hD9hGQ2kvvt8Cv3YZbo4S-S1BPodGxA79k72hX42CzHMjXFGJXieIaQr9fuFfWJaIh2neTM0zvjY3XuAzzF4f9397W48R8rS-4qlsLZ6cOsRJaRXQDZjJDB02zbPlxW9I9gj7nzCOhzWKR3Y8Qmxty19Uy8dWRwk-OqPYXHDEsIWUUTSyw-EV8D4UIexa8hX20KrQEjwCzuTzIk5jNNsOLMXp0K4fMvD-PpTdlnQufh2q33tf4IvDcZLSQ7cYkGRAgvrPAi3LEp9ZICMVFmuW7DGdf9wjJGRkMv4FRd8ye2nfJQzQvy3WkKg6HdFfyPW2eeYbBKBJ04c6AUlrWkVWOhIpoRgH-904QI_65IwkKCXC2OwdQu_Ck0ze7tzZarJgTMoQanKmEHtJkdyUhllMQOgFfGfZxbEDnIA96MSgGaWnZ-aglw9m25j5-fYOznE3yLRQ5Qg518Q-rJqMJZy08Ed2m0drRIhLwG6FZ5V-bG2f4t8Sp5mnmW4TtxqqzssjGvWxMdmg_KfagHgfGiINwLgsk-5_Phrb9P3hrz0SHVjGDHuuZgSMdxds6yc-2NPBjFWS9NBBsFrQGcl6VTwDlpFcOxRcarCa9_NGGWUY1VvJplYtpuLtSXE8RL0TvwzIVbjY5IeUVfvw4-EpWhNEki2fDd7rhSzJrNXphlRlxbQbioCg3i0ReeuX61EZ_3EDdXYQhZHZPputSLAOaurGMVvJ_4ORoY2d7Wk7sANAfp6lYYNqouuZfhKVgFWcSc6l6xS74o-6Oz1VSxFs4Ju2QHmLCLHaU9nxPJ7JMWmTtCW_cVImQL&flow=pre_authentication&next
+2025-09-11 01:24:27,993 - INFO - Login successful for account 2 (61573937972209)
+2025-09-11 01:24:27,993 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:24:44,981 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:24:44,982 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:25:02,026 - INFO - Post page loaded successfully: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:25:02,040 - INFO - No more comments to load.
+2025-09-11 01:25:02,050 - WARNING - No comment elements found with any selector.
+2025-09-11 01:25:02,051 - INFO - Verifying replies for account 61573937972209
+2025-09-11 01:25:10,086 - INFO - Attempting login for account 3 (61574164250901), attempt 1
+2025-09-11 01:25:22,075 - INFO - After login, current URL: https://web.facebook.com/two_step_verification/authentication/?encrypted_context=ARHenKQ1pJNG_1xOyx8RqbNqrC9YAwC-19zskVN283ZcD2XhqsBfdD1raUL2NZAqgppYMr2s_2J_21zR7dL8dbVKsPs-D0gecDOjgOdRXeamT7S1eOUo43_4bIVZQT_kIlRQ6fc4njp3PAFSCt4-bAMkBWHIt8m3JAWXxpB4i9kkDIJIzM6QDGqF8spIjpLRPFdP7MoOUsWz0RrGQc2i9G9UVCbrONF7mNWJahTeMTcRCRgARwlJ3o_WMo3n2ozbzokEnfNfIr9JrbxIgq4i_0XrcdsO0edYfcN8I_LL7B9Y7sj78CNrLiPyryRaVRB2kCH6QQTXiqsUeY8oqyxjRw_cpi_aA5YpUGb24AoEJftxHGlwTTvdOkP0l20qbjGB-mFuLknywdNDFEKhHEJqb5NG0iTzMre7XbPgPur0IlsOILbdtru_vAt_nq-BiSNhOIj4YZT0tpslF5Ioa_YenNQjn4HUlEzuI_t7GzxK5kunHSSubDMtrFK_xtLPr2NaKqVgqC_p_BVTEv-zoKh4GYH6NBRjUAjcF3NfrrNWogMPOsabNIzN4E3WdAd5Wsry5dutP2S_qcRFo9fpXVH4dFZYH-sY3khlPuJ52sLcwa-9fVMxcL8xmRDSOuwR_c2Op8mQMCYhjIsSmEarfjdesMoT31mRXeShO8FTsJ2z51CUZAghztgrQTGmqfHqxllBsFUNcfPEkhRx6WZrGCmGTDB27bxmfDTs1BNL9AO1oIKUn1kYbTc-XvpGkhZejQEYL6aICulcWEJdP_dF0LGh5l_6z78fH-5SIu0vitXapL48EuyEXtAkkgpYoJB6MOsaDeQFP_nDensXlKBZ_9VpnUMbfjmoq9jKx7KTHuUaPZugf5fMWH5etxjeW8cRoE4OHj_5LV1t4uuKS1nQB-GMfMJIQNC10YukrZ4zBkU-9ezkzd5e7se_4suW5Xg4pkfuWdQxWs1ppXCzKpdX61nbnVKcxvIHFDBpNmCpMQ&flow=pre_authentication&next
+2025-09-11 01:25:22,075 - INFO - Login successful for account 3 (61574164250901)
+2025-09-11 01:25:22,076 - INFO - Navigating to https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln after login
+2025-09-11 01:25:39,296 - INFO - Current URL after navigation: https://web.facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln&_rdc=1&_rdr#
+2025-09-11 01:25:39,296 - INFO - Navigating to post: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:25:56,512 - INFO - Post page loaded successfully: https://facebook.com/story.php?story_fbid=1103303521996687&id=100069511484329&mibextid=wwXIfr&rdid=hlOzZmeLXyOhsiln
+2025-09-11 01:25:56,524 - INFO - No more comments to load.
+2025-09-11 01:25:56,534 - WARNING - No comment elements found with any selector.
+2025-09-11 01:25:56,534 - INFO - Verifying replies for account 61574164250901

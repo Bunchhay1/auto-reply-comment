@@ -1,0 +1,2 @@
+2025-09-11 00:27:56,400 - ERROR - Invalid URL entered: https://web.facebook.com/story.php?story_fbid=1101185648875141&id=100069511484329&mibextid=wwXIfr&rdid=k8JG5HJS1Ju67OB4
+2025-09-11 00:32:24,419 - ERROR - Invalid URL entered: https://web.facebook.com/photo?fbid=1101185625541810&set=a.345371174456596
