@@ -16,32 +16,12 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 # --- 1. CONFIGURATION ---
 
-# List of all your Firefox profile paths
-FIREFOX_PROFILE_PATHS = [
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/fqqqrdxh.facebook-bot',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/dytaciao.fb_account_1',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/jb46ve7w.fb_account_2',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/hibyib3f.fb_account_3',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/hzo15kws.fb_account_4',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/yu5xht6f.fb_account_5',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/esi1h3w4.fb_account_6',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/1nupfsvi.fb_account_7',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/ixhx2chl.fb_account_8',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/nyktgcfy.fb_account_10',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/t2fe4dhu.fb_account_11',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/vk3ph3b9.fb_account_12',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/r0yrnobw.fb_account_13',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/28ub8efj.fb_account_14',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/0g5y48yu.fb_account_15',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/ymqbjokf.fb_account_16',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/ozfq4shm.fb_account_17',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/mlr5m5lo.fb_account_18',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/qkbpkwpr.fb_account_19',
-    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/qbnbbioe.fb_account_20',
-]
+# --- IMPORTANT ---
+# Paste the path to the ONE Firefox profile you want to use here
+FIREFOX_PROFILE_PATH = r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/fqqqrdxh.facebook-bot'
 
 # Configure logging
-logging.basicConfig(filename='final_bot_logs.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='reply_bot_logs.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def load_config():
     """Loads the configuration from config.json."""
@@ -88,13 +68,13 @@ def sort_comments_by_newest(driver):
     except Exception as e:
         print(f"   -> WARNING: Could not sort comments. Continuing with default order. (Error: {e})")
 
-def scan_and_reply(driver, config, comments_to_skip):
-    """Scans for new Thai users, skips a certain number, and replies to the next 10."""
+def scan_and_reply_all(driver, config):
+    """Scans for all Thai comments on the post and replies to them."""
     post_url = config["post_url"]
     replies_list = config["replies"]
     thai_regex = re.compile(r'[\u0e00-\u0e7f]')
 
-    print(f"Navigating to post. This account will SKIP the first {comments_to_skip} users and reply to the next 10.")
+    print(f"Navigating to post. The goal is to reply to ALL Thai comments.")
     driver.get(post_url)
 
     try:
@@ -102,137 +82,96 @@ def scan_and_reply(driver, config, comments_to_skip):
         print("Post page loaded successfully.")
     except TimeoutException:
         print("ERROR: Failed to load the post page.")
-        return 0
+        return
 
     sort_comments_by_newest(driver)
     
-    found_thai_users = []
-    found_usernames = set()
+    # === CHANGE: Improved auto-scrolling method ===
+    print("Loading all comments by scrolling...")
+    body = driver.find_element(By.TAG_NAME, 'body')
+    for i in range(30): # Scroll 30 times
+        body.send_keys(Keys.PAGE_DOWN)
+        time.sleep(random.uniform(1.5, 2.5))
+        if (i + 1) % 5 == 0:
+            print(f"  ...scrolled {i + 1} times.")
+
+    print("Finished scrolling. Finding all comments to reply to...")
+    comment_containers = driver.find_elements(By.XPATH, "//div[contains(@aria-label, 'Comment by')] | //div[@aria-label='Comment']")
     
-    required_users_to_find = comments_to_skip + 10
-    
-    scroll_attempts = 0
-    max_scrolls = 10 # Increased safety limit for very long comment sections
-
-    while len(found_usernames) < required_users_to_find and scroll_attempts < max_scrolls:
-        scroll_attempts += 1
-        print(f"Scrolling... (Attempt {scroll_attempts}/{max_scrolls}) | Found {len(found_usernames)}/{required_users_to_find} unique users")
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        
-        # === CHANGE: Faster scrolling delay ===
-        time.sleep(random.uniform(1.5, 2.5)) 
-
-        comment_containers = driver.find_elements(By.XPATH, "//div[contains(@aria-label, 'Comment by')] | //div[@aria-label='Comment']")
-        for container in comment_containers:
-            try:
-                username_element = container.find_element(By.XPATH, ".//a[contains(@href, 'facebook.com/') and @role='link']")
-                username = username_element.text
-                
-                if username in found_usernames:
-                    continue
-
-                comment_text = container.find_element(By.XPATH, ".//div[@dir='auto']").text
-                is_thai = bool(thai_regex.search(username)) or bool(thai_regex.search(comment_text))
-
-                if is_thai:
-                    found_thai_users.append(container)
-                    found_usernames.add(username)
-            except Exception:
-                continue
-    
-    if scroll_attempts == max_scrolls:
-        print("Warning: Reached max scroll attempts. May not have found enough users to reply to.")
-
-    print(f"Finished searching. Found a total of {len(found_thai_users)} unique Thai users.")
-
-    users_to_reply_to = found_thai_users[comments_to_skip : comments_to_skip + 10]
-    
-    print(f"This account will now reply to {len(users_to_reply_to)} users.")
+    print(f"Found {len(comment_containers)} potential comments.")
     replies_made = 0
 
-    for container in users_to_reply_to:
+    for container in comment_containers:
         try:
-            username = container.find_element(By.XPATH, ".//a[contains(@href, 'facebook.com/') and @role='link']").text
-            print(f"   -> Replying to user: '{username}'")
-            
-            reply_button = container.find_element(By.XPATH, ".//div[@role='button' and contains(., 'Reply')]")
-            driver.execute_script("arguments[0].click();", reply_button)
-            time.sleep(random.uniform(1.5, 2.5))
-            
-            reply_box = driver.switch_to.active_element
-            reply_text = random.choice(replies_list)
-            
-            pyperclip.copy(reply_text)
-            paste_key = Keys.COMMAND if sys.platform == 'darwin' else Keys.CONTROL
-            reply_box.send_keys(paste_key, 'v')
-            time.sleep(random.uniform(1.0, 2.0))
-            reply_box.send_keys(Keys.ENTER)
-            
-            replies_made += 1
-            print(f"      -> Reply #{replies_made} for this account posted.")
-            logging.info(f"Successfully posted reply to '{username}'.")
-            
-            reply_delay = random.uniform(8, 12)
-            print(f"      -> Waiting for {reply_delay:.0f} seconds...")
-            time.sleep(reply_delay)
+            username_element = container.find_element(By.XPATH, ".//a[contains(@href, 'facebook.com/') and @role='link']")
+            username = username_element.text
+            comment_text = container.find_element(By.XPATH, ".//div[@dir='auto']").text
+            is_thai = bool(thai_regex.search(username)) or bool(thai_regex.search(comment_text))
+
+            if is_thai:
+                print(f"   -> Found Thai comment by '{username}'. Attempting to reply.")
+                
+                reply_button = container.find_element(By.XPATH, ".//div[@role='button' and contains(., 'Reply')]")
+                driver.execute_script("arguments[0].click();", reply_button)
+                time.sleep(random.uniform(1.5, 2.5))
+                
+                reply_box = driver.switch_to.active_element
+                reply_text = random.choice(replies_list)
+                
+                pyperclip.copy(reply_text)
+                paste_key = Keys.COMMAND if sys.platform == 'darwin' else Keys.CONTROL
+                reply_box.send_keys(paste_key, 'v')
+                time.sleep(random.uniform(1.0, 2.0))
+                reply_box.send_keys(Keys.ENTER)
+                
+                replies_made += 1
+                print(f"      -> Reply #{replies_made} posted.")
+                logging.info(f"Successfully posted reply to '{username}'.")
+                
+                reply_delay = random.uniform(8, 12)
+                print(f"      -> Waiting for {reply_delay:.0f} seconds...")
+                time.sleep(reply_delay)
 
         except Exception as e:
-            logging.warning(f"Failed to reply to '{username}': {e}")
+            logging.warning(f"Could not reply to a comment. Error: {e}")
             continue
             
-    print(f"Finished. Total replies made by this account: {replies_made}")
-    return replies_made
+    print(f"Finished. Total replies made: {replies_made}")
 
 # --- 3. MAIN EXECUTION SCRIPT ---
 
 def main():
     config = load_config()
     
-    while True: # Loop indefinitely
-        comments_to_skip = 0
-        print("\n" + "="*80)
-        print("STARTING A NEW CYCLE. Comment counter reset to 0.")
-        print("="*80)
+    print("\n" + "="*80)
+    print(f"--- Starting Bot for Single Account ---")
+    
+    driver = setup_persistent_firefox_driver(FIREFOX_PROFILE_PATH)
+    if not driver:
+        print(f"Exiting due to driver setup failure.")
+        sys.exit(1)
 
-        for i, profile_path in enumerate(FIREFOX_PROFILE_PATHS, 1):
-            print("\n" + "="*80)
-            print(f"--- Starting Bot for Account #{i} ---")
-            
-            driver = setup_persistent_firefox_driver(profile_path)
-            if not driver:
-                print(f"Skipping account #{i} due to driver setup failure.")
-                time.sleep(3)
-                continue
-
-            try:
-                driver.get("https://www.facebook.com")
-                time.sleep(4)
-                
-                if "login" in driver.current_url:
-                    print(f"ERROR: Account #{i} is not logged in.")
-                    logging.warning(f"Session for profile {profile_path} is invalid.")
-                else:
-                    print(f"Successfully started session for Account #{i}.")
-                    replies_made = scan_and_reply(driver, config, comments_to_skip)
-                    comments_to_skip += replies_made
-
-            except Exception as e:
-                logging.error(f"A critical error occurred for account #{i}: {e}")
-                print(f"A critical error occurred. Check logs for details.")
-            finally:
-                if driver:
-                    driver.quit()
-                print(f"Session for Account #{i} finished. Browser is closed.")
-                
-                delay = random.uniform(1, 3)
-                print(f"Waiting for {delay:.1f} seconds before next account...")
-                time.sleep(delay)
+    try:
+        driver.get("https://www.facebook.com")
+        time.sleep(4)
         
-        print("\n" + "="*80)
-        print("Completed a full loop through all accounts.")
-        loop_delay = random.uniform(300, 600)
-        print(f"Waiting for {loop_delay/60:.1f} minutes before starting the next cycle...")
-        time.sleep(loop_delay)
+        if "login" in driver.current_url:
+            print(f"ERROR: The account in the specified profile is not logged in.")
+            logging.warning(f"Session for profile {FIREFOX_PROFILE_PATH} is invalid.")
+        else:
+            print(f"Successfully started session.")
+            scan_and_reply_all(driver, config)
+
+    except Exception as e:
+        logging.error(f"A critical error occurred: {e}")
+        print(f"A critical error occurred. Check logs for details.")
+    finally:
+        if driver:
+            driver.quit()
+        print(f"Session finished. Browser is closed.")
+    
+    print("\n" + "="*80)
+    print("Bot has completed its task.")
 
 if __name__ == "__main__":
     main()
