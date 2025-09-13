@@ -17,8 +17,29 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # --- 1. CONFIGURATION ---
 
 # --- IMPORTANT ---
-# Paste the path to the ONE Firefox profile you want to use here
-FIREFOX_PROFILE_PATH = r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/fqqqrdxh.facebook-bot'
+# List of all Firefox profiles you want to use
+FIREFOX_PROFILE_PATHS = [
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/fqqqrdxh.facebook-bot',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/dytaciao.fb_account_1',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/jb46ve7w.fb_account_2',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/hibyib3f.fb_account_3',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/hzo15kws.fb_account_4',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/yu5xht6f.fb_account_5',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/esi1h3w4.fb_account_6',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/1nupfsvi.fb_account_7',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/ixhx2chl.fb_account_8',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/nyktgcfy.fb_account_10', # NOTE: You are missing account 9
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/t2fe4dhu.fb_account_11',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/vk3ph3b9.fb_account_12',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/r0yrnobw.fb_account_13',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/28ub8efj.fb_account_14',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/0g5y48yu.fb_account_15',
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/ymqbjokf.fb_account_16',   
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/ozfq4shm.fb_account_17',  
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/mlr5m5lo.fb_account_18',  
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/qkbpkwpr.fb_account_19',  
+    r'/Users/bunchhay/Library/Application Support/Firefox/Profiles/qbnbbioe.fb_account_20',
+]
 
 # Configure logging
 logging.basicConfig(filename='reply_bot_logs.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -86,7 +107,7 @@ def scan_and_reply_all(driver, config):
 
     sort_comments_by_newest(driver)
     
-    # === CHANGE: Improved auto-scrolling method ===
+    # === Improved auto-scrolling method ===
     print("Loading all comments by scrolling...")
     body = driver.find_element(By.TAG_NAME, 'body')
     for i in range(30): # Scroll 30 times
@@ -136,42 +157,57 @@ def scan_and_reply_all(driver, config):
             logging.warning(f"Could not reply to a comment. Error: {e}")
             continue
             
-    print(f"Finished. Total replies made: {replies_made}")
+    print(f"Finished. Total replies made with this profile: {replies_made}")
 
 # --- 3. MAIN EXECUTION SCRIPT ---
 
 def main():
+    """
+    Main function to run the bot across multiple profiles.
+    """
     config = load_config()
-    
-    print("\n" + "="*80)
-    print(f"--- Starting Bot for Single Account ---")
-    
-    driver = setup_persistent_firefox_driver(FIREFOX_PROFILE_PATH)
-    if not driver:
-        print(f"Exiting due to driver setup failure.")
-        sys.exit(1)
+    total_profiles = len(FIREFOX_PROFILE_PATHS)
 
-    try:
-        driver.get("https://www.facebook.com")
-        time.sleep(4)
+    for index, profile_path in enumerate(FIREFOX_PROFILE_PATHS):
+        print("\n" + "="*80)
+        print(f"--- Starting Bot for Profile {index + 1}/{total_profiles} ---")
+        print(f"--- Profile Path: {profile_path} ---")
         
-        if "login" in driver.current_url:
-            print(f"ERROR: The account in the specified profile is not logged in.")
-            logging.warning(f"Session for profile {FIREFOX_PROFILE_PATH} is invalid.")
-        else:
-            print(f"Successfully started session.")
-            scan_and_reply_all(driver, config)
+        driver = setup_persistent_firefox_driver(profile_path)
+        if not driver:
+            print(f"Skipping profile {os.path.basename(profile_path)} due to driver setup failure.")
+            logging.error(f"Failed to setup driver for profile: {profile_path}")
+            continue
 
-    except Exception as e:
-        logging.error(f"A critical error occurred: {e}")
-        print(f"A critical error occurred. Check logs for details.")
-    finally:
-        if driver:
-            driver.quit()
-        print(f"Session finished. Browser is closed.")
+        try:
+            driver.get("https://www.facebook.com")
+            time.sleep(4)
+            
+            if "login" in driver.current_url:
+                print(f"ERROR: The account in profile '{os.path.basename(profile_path)}' is not logged in.")
+                logging.warning(f"Session for profile {profile_path} is invalid. Skipping.")
+            else:
+                print(f"Successfully started session for '{os.path.basename(profile_path)}'.")
+                scan_and_reply_all(driver, config)
+
+        except Exception as e:
+            logging.error(f"A critical error occurred for profile {profile_path}: {e}")
+            print(f"A critical error occurred for {os.path.basename(profile_path)}. Check logs for details.")
+        finally:
+            if driver:
+                driver.quit()
+            print(f"Session for '{os.path.basename(profile_path)}' finished. Browser is closed.")
+        
+        # Wait between accounts to avoid being flagged, unless it's the last one
+        if index < total_profiles - 1:
+            # UPDATED: Wait for 15 to 25 seconds (average of 20s).
+            # WARNING: This is a very short and risky delay.
+            delay = random.uniform(15, 25)
+            print(f"\n--- WAITING for {delay:.0f} seconds before starting next profile... ---")
+            time.sleep(delay)
     
     print("\n" + "="*80)
-    print("Bot has completed its task.")
+    print("Bot has completed its tasks for ALL profiles.")
 
 if __name__ == "__main__":
     main()
